@@ -209,7 +209,7 @@
      </spacer>
     </item>
     <item row="0" column="1" rowspan="2">
-     <widget class="QListView" name="RecentlyArticles">
+     <widget class="QListWidget" name="RecentlyArticles">
       <property name="focusPolicy">
        <enum>Qt::NoFocus</enum>
       </property>
@@ -246,7 +246,7 @@
    </property>
    <layout class="QGridLayout" name="gridLayout_4">
     <item row="0" column="1">
-     <widget class="QLabel" name="Version_2">
+     <widget class="QLabel" name="Version">
       <property name="text">
        <string/>
       </property>
@@ -267,7 +267,7 @@
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QLabel" name="DataTime_2">
+     <widget class="QLabel" name="DataTime">
       <property name="text">
        <string/>
       </property>

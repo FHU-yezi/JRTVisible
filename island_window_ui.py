@@ -130,10 +130,10 @@ class Ui_IslandDataWindow(object):
         self.gridLayout_3 = QGridLayout(self.gridLayoutWidget_3)
         self.gridLayout_3.setObjectName(u"gridLayout_3")
         self.gridLayout_3.setContentsMargins(0, 0, 0, 0)
-        self.Version_2 = QLabel(self.gridLayoutWidget_3)
-        self.Version_2.setObjectName(u"Version_2")
+        self.Version = QLabel(self.gridLayoutWidget_3)
+        self.Version.setObjectName(u"Version")
 
-        self.gridLayout_3.addWidget(self.Version_2, 0, 1, 1, 1)
+        self.gridLayout_3.addWidget(self.Version, 0, 1, 1, 1)
 
         self.label_20 = QLabel(self.gridLayoutWidget_3)
         self.label_20.setObjectName(u"label_20")
@@ -145,10 +145,10 @@ class Ui_IslandDataWindow(object):
 
         self.gridLayout_3.addWidget(self.label_18, 1, 0, 1, 1)
 
-        self.DataTime_2 = QLabel(self.gridLayoutWidget_3)
-        self.DataTime_2.setObjectName(u"DataTime_2")
+        self.DataTime = QLabel(self.gridLayoutWidget_3)
+        self.DataTime.setObjectName(u"DataTime")
 
-        self.gridLayout_3.addWidget(self.DataTime_2, 1, 1, 1, 1)
+        self.gridLayout_3.addWidget(self.DataTime, 1, 1, 1, 1)
 
 
         self.retranslateUi(IslandDataWindow)
@@ -170,9 +170,9 @@ class Ui_IslandDataWindow(object):
         self.IslandMasterName.setText("")
         self.label_4.setText(QCoreApplication.translate("IslandDataWindow", u"\u5c0f\u5c9b\u7b80\u4ecb", None))
         self.CopyButton.setText(QCoreApplication.translate("IslandDataWindow", u"\u590d\u5236\u4fe1\u606f", None))
-        self.Version_2.setText("")
+        self.Version.setText("")
         self.label_20.setText(QCoreApplication.translate("IslandDataWindow", u"\u8f6f\u4ef6\u7248\u672c\uff1a", None))
         self.label_18.setText(QCoreApplication.translate("IslandDataWindow", u"\u6570\u636e\u83b7\u53d6\u65f6\u95f4\uff1a", None))
-        self.DataTime_2.setText("")
+        self.DataTime.setText("")
     # retranslateUi
 

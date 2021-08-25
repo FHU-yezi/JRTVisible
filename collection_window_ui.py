@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'collection_window_uiPsmFgn.ui'
+## Form generated from reading UI file 'collection_window_uikBivKN.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -22,7 +22,7 @@ class Ui_CollectionDataWindow(object):
         CollectionDataWindow.setMaximumSize(QSize(640, 200))
         self.gridLayoutWidget_7 = QWidget(CollectionDataWindow)
         self.gridLayoutWidget_7.setObjectName(u"gridLayoutWidget_7")
-        self.gridLayoutWidget_7.setGeometry(QRect(10, 10, 271, 121))
+        self.gridLayoutWidget_7.setGeometry(QRect(10, 10, 271, 126))
         self.gridLayout_6 = QGridLayout(self.gridLayoutWidget_7)
         self.gridLayout_6.setObjectName(u"gridLayout_6")
         self.gridLayout_6.setContentsMargins(0, 0, 0, 0)
@@ -96,13 +96,13 @@ class Ui_CollectionDataWindow(object):
 
         self.gridLayout_6.addWidget(self.ArticleUpdateTime, 4, 1, 1, 3)
 
-        self.ImformationUpdateTime = QLineEdit(self.gridLayoutWidget_7)
-        self.ImformationUpdateTime.setObjectName(u"ImformationUpdateTime")
-        self.ImformationUpdateTime.setEnabled(True)
-        self.ImformationUpdateTime.setMouseTracking(True)
-        self.ImformationUpdateTime.setFocusPolicy(Qt.NoFocus)
+        self.InformationUpdateTime = QLineEdit(self.gridLayoutWidget_7)
+        self.InformationUpdateTime.setObjectName(u"InformationUpdateTime")
+        self.InformationUpdateTime.setEnabled(True)
+        self.InformationUpdateTime.setMouseTracking(True)
+        self.InformationUpdateTime.setFocusPolicy(Qt.NoFocus)
 
-        self.gridLayout_6.addWidget(self.ImformationUpdateTime, 3, 1, 1, 3)
+        self.gridLayout_6.addWidget(self.InformationUpdateTime, 3, 1, 1, 3)
 
         self.gridLayoutWidget_8 = QWidget(CollectionDataWindow)
         self.gridLayoutWidget_8.setObjectName(u"gridLayoutWidget_8")
@@ -138,10 +138,10 @@ class Ui_CollectionDataWindow(object):
         self.gridLayout_3 = QGridLayout(self.gridLayoutWidget_3)
         self.gridLayout_3.setObjectName(u"gridLayout_3")
         self.gridLayout_3.setContentsMargins(0, 0, 0, 0)
-        self.Version_2 = QLabel(self.gridLayoutWidget_3)
-        self.Version_2.setObjectName(u"Version_2")
+        self.Version = QLabel(self.gridLayoutWidget_3)
+        self.Version.setObjectName(u"Version")
 
-        self.gridLayout_3.addWidget(self.Version_2, 0, 1, 1, 1)
+        self.gridLayout_3.addWidget(self.Version, 0, 1, 1, 1)
 
         self.label_20 = QLabel(self.gridLayoutWidget_3)
         self.label_20.setObjectName(u"label_20")
@@ -153,10 +153,10 @@ class Ui_CollectionDataWindow(object):
 
         self.gridLayout_3.addWidget(self.label_18, 1, 0, 1, 1)
 
-        self.DataTime_2 = QLabel(self.gridLayoutWidget_3)
-        self.DataTime_2.setObjectName(u"DataTime_2")
+        self.DataTime = QLabel(self.gridLayoutWidget_3)
+        self.DataTime.setObjectName(u"DataTime")
 
-        self.gridLayout_3.addWidget(self.DataTime_2, 1, 1, 1, 1)
+        self.gridLayout_3.addWidget(self.DataTime, 1, 1, 1, 1)
 
 
         self.retranslateUi(CollectionDataWindow)
@@ -177,12 +177,12 @@ class Ui_CollectionDataWindow(object):
         self.CollectionName.setText("")
         self.MainEditerName.setText("")
         self.ArticleUpdateTime.setText("")
-        self.ImformationUpdateTime.setText("")
+        self.InformationUpdateTime.setText("")
         self.label_2.setText(QCoreApplication.translate("CollectionDataWindow", u"\u4e13\u9898\u7b80\u4ecb", None))
         self.CopyButton_.setText(QCoreApplication.translate("CollectionDataWindow", u"\u590d\u5236\u4fe1\u606f", None))
-        self.Version_2.setText("")
+        self.Version.setText("")
         self.label_20.setText(QCoreApplication.translate("CollectionDataWindow", u"\u8f6f\u4ef6\u7248\u672c\uff1a", None))
         self.label_18.setText(QCoreApplication.translate("CollectionDataWindow", u"\u6570\u636e\u83b7\u53d6\u65f6\u95f4\uff1a", None))
-        self.DataTime_2.setText("")
+        self.DataTime.setText("")
     # retranslateUi
 

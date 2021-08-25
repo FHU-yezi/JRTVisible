@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'notebook_data_uizHKPGS.ui'
+## Form generated from reading UI file 'notebook_data_uiZsepxB.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -119,7 +119,7 @@ class Ui_NotebookDataWindow(object):
 
         self.gridLayout_14.addItem(self.verticalSpacer_6, 1, 0, 1, 1)
 
-        self.RecentlyArticles = QListView(self.gridLayoutWidget_14)
+        self.RecentlyArticles = QListWidget(self.gridLayoutWidget_14)
         self.RecentlyArticles.setObjectName(u"RecentlyArticles")
         self.RecentlyArticles.setFocusPolicy(Qt.NoFocus)
 
@@ -137,10 +137,10 @@ class Ui_NotebookDataWindow(object):
         self.gridLayout_4 = QGridLayout(self.gridLayoutWidget_4)
         self.gridLayout_4.setObjectName(u"gridLayout_4")
         self.gridLayout_4.setContentsMargins(0, 0, 0, 0)
-        self.Version_2 = QLabel(self.gridLayoutWidget_4)
-        self.Version_2.setObjectName(u"Version_2")
+        self.Version = QLabel(self.gridLayoutWidget_4)
+        self.Version.setObjectName(u"Version")
 
-        self.gridLayout_4.addWidget(self.Version_2, 0, 1, 1, 1)
+        self.gridLayout_4.addWidget(self.Version, 0, 1, 1, 1)
 
         self.label_21 = QLabel(self.gridLayoutWidget_4)
         self.label_21.setObjectName(u"label_21")
@@ -152,10 +152,10 @@ class Ui_NotebookDataWindow(object):
 
         self.gridLayout_4.addWidget(self.label_19, 1, 0, 1, 1)
 
-        self.DataTime_2 = QLabel(self.gridLayoutWidget_4)
-        self.DataTime_2.setObjectName(u"DataTime_2")
+        self.DataTime = QLabel(self.gridLayoutWidget_4)
+        self.DataTime.setObjectName(u"DataTime")
 
-        self.gridLayout_4.addWidget(self.DataTime_2, 1, 1, 1, 1)
+        self.gridLayout_4.addWidget(self.DataTime, 1, 1, 1, 1)
 
         QWidget.setTabOrder(self.RecentlyArticles, self.CopyButton)
 
@@ -180,9 +180,9 @@ class Ui_NotebookDataWindow(object):
         self.UpdateTime.setText("")
         self.label_6.setText(QCoreApplication.translate("NotebookDataWindow", u"\u6700\u65b0\u6587\u7ae0", None))
         self.CopyButton.setText(QCoreApplication.translate("NotebookDataWindow", u"\u590d\u5236\u4fe1\u606f", None))
-        self.Version_2.setText("")
+        self.Version.setText("")
         self.label_21.setText(QCoreApplication.translate("NotebookDataWindow", u"\u8f6f\u4ef6\u7248\u672c\uff1a", None))
         self.label_19.setText(QCoreApplication.translate("NotebookDataWindow", u"\u6570\u636e\u83b7\u53d6\u65f6\u95f4\uff1a", None))
-        self.DataTime_2.setText("")
+        self.DataTime.setText("")
     # retranslateUi
 
